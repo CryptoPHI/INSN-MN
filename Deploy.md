@@ -1,4 +1,4 @@
-# Depliy an INSN Master Node
+# Deploy an INSN Master Node
 
 #### NOTE: 
 
