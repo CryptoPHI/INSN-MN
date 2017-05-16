@@ -2,6 +2,7 @@
 InsaneCoin - http://insanecoin.com 
 Scripts &amp; Helpers
 
+![InsaneCoin](/images/INSN.png)
 ## [Deploy InsaneCoin Masternode](INSN-MN/Deploy.md)
 
 ## [Update InsaneCoin Node/Masternode](INSN-MN/Update.md)
