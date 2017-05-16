@@ -51,4 +51,4 @@ The procedure has been tested on Ubuntu +16.04
 1. Access your VPS and issue the following command to proceed as root: <br>`sudo -i`
 2. Fetch the script and execute it: <br> `cd /opt && wget https://github.com/CryptoPHI/INSN-MN/blob/master/INSN_deploy_mn.sh  && chmod +x INSN_deploy_mn.sh && ./INSN_deploy_mn.sh`
 
-## To report issues or for support : <br> https://insanecointeam.slack.com/messages/C5A3DT42J
+## To report issues or for support : <br> [InsaneCoin Slack #masternodesupport](https://insanecointeam.slack.com/messages/C5A3DT42J)
