@@ -38,4 +38,4 @@ For every Masternode you want to create:
 1. Access your VPS and issue the following command to proceed as root: <br>`sudo -i`
 2. Fetch the script and execute it: <br> `cd /opt && git clone https://github.com/CryptoPHI/INSN-MN.git && cd INSN-MN && chmod +x INSN_deploy_mn.sh && ./INSN_deploy_mn.sh`
 
-# To report issues or for support : https://insanecointeam.slack.com/messages/C5A3DT42J
+## To report issues or for support : <br> https://insanecointeam.slack.com/messages/C5A3DT42J
