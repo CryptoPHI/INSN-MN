@@ -49,7 +49,7 @@ else
 fi
 
 echo "Building node config file"
-echo -e "rpcuser=$rpcu\nrpcpassword=$rpcp\nrpcallowip=127.0.0.1\nrpcport=10257\nport=10255\\nexternalip=$iiis\nserver=1\nlisten=1\ndaemon=1\nlogtimestamps=1\ntxindex=1\nmaxconnections=500\nmnconflock=1\nmasternode=1\nmasternodeaddr=$iiis:10255\nmasternodeprivkey=$mnpkey\nstake=0\nstaking=0\nseednode=insn.cryptocoderz.com\n" > ~/.INSN/INSaNe.conf
+echo -e "rpcuser=$rpcu\nrpcpassword=$rpcp\nrpcallowip=localhost\nrpcport=10257\nport=10255\\nexternalip=$iiis\nserver=1\nlisten=1\ndaemon=1\nlogtimestamps=1\ntxindex=1\nmaxconnections=500\nmnconflock=1\nmasternode=1\nmasternodeaddr=$iiis:10255\nmasternodeprivkey=$mnpkey\nstake=0\nstaking=0\nseednode=insn.cryptocoderz.com\n" > ~/.INSN/INSaNe.conf
 
 sleep 10; INSaNed
 
