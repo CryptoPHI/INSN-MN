@@ -38,7 +38,7 @@ For every Masternode you want to create:
         ![Image of masternode_output_out](/images/Masternode_Outputs_O.png "Output")
         >**sample output:** { "d1197905eaffd2fbfcd35f681adba92b25e32c62de6d0f7a5487926c01a70897":"0" }
         
-4. On your desktop, edit the file named `masternode.conf` located in your INSN wallet folder add a **SINGLE SPACED SINGLE LINE** for each of your Masternodes based on the following template : 
+4. On your desktop, edit the file named `masternode.conf` located in your INSN wallet folder; add a **SINGLE SPACED SINGLE LINE** for each of your Masternodes based on the following template : 
    >*MN_ALIAS REMOTE_MN_IP:10255 MASTERNODE_PRIVKEY TRANSACTION_HASH INDEX*
    
    **Example:** the second line is not to be included in the config file and is to assist in pointing out the source of the information
