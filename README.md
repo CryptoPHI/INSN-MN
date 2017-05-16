@@ -35,6 +35,7 @@ For every Masternode you want to create:
    >1.i 123.123.123.123:10255 ^^^^^^ 1.ii ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^  3.i  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^</code></pre>
 
 ## Step 2: Deploy to VPS
+The procedure has been tested on Ubuntu +16.04
 1. Access your VPS and issue the following command to proceed as root: <br>`sudo -i`
 2. Fetch the script and execute it: <br> `cd /opt && git clone https://github.com/CryptoPHI/INSN-MN.git && cd INSN-MN && chmod +x INSN_deploy_mn.sh && ./INSN_deploy_mn.sh`
 
