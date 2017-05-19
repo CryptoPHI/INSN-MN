@@ -55,6 +55,7 @@ sleep 10; INSaNed
 
 echo "Setting INSaNed to auto-run on reboot"
 echo -e "@reboot /usr/local/bin/INSaNed\n" >> /var/spool/cron/crontabs/$uris
+clear && echo "On the next screen press 3 and then Press and hold SHIFT + ZZ" && crontab -e
 echo "Switching to node monitor mode. Press ctl-c to exit."
 watch INSaNed getinfo
 echo "Get INSANE!!\nReboot the VPS and access it again to confirm all is in order" 
