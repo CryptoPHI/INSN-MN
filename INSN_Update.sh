@@ -10,6 +10,7 @@ clear
 echo "Updating the VM and applying OS patches"
 apt update && apt -y upgrade 
 echo "Updating INSN"
+INSaNed stop
 cd /opt/INSN && git pull && cd INSN/src && chmod +x leveldb/build_detect_platform && chmod +x secp256k1/autogen.sh && make -f makefile.unix && strip INSaNed && cp INSaNed /usr/local/bin && echo "Cleaning up" && make -f makefile.unix clean && cd && INSaNed
 
 echo "Switching to node monitor mode. Press ctl-c to exit."
